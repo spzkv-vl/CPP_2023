@@ -1,7 +1,9 @@
 #include <iostream>
+
 using namespace std;
-int main() {
-    int i, j, p, a[10]={1, 8, 3, 6, 5, 4, 9, 2, 8, 12};
+
+int Sort(int a[]) {
+    int i, j, p;
     for (j=0; j<=10; j++) {
         for (i=0; i<=(10-j); i++) {
             if (a[i]<a[i+1]) {
@@ -11,9 +13,13 @@ int main() {
             }
         }
     }
-    for (i = 1; i <= 10; i++)
+   for (i = 1; i <= 10; i++)
     {
         cout << a[i] << "   ";
     }
-return 0;
+    return 0;
+}
+int main() {
+    int a[10]={1, 8, 3, 6, 5, 4, 9, 2, 8, 12};
+    Sort(a);
 }
