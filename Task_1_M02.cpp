@@ -15,9 +15,9 @@ return 0;
 int main(){
     float A, S;
     int n;
-cout << "Enter the side length of the N-gon A=: ";
+cout << "Enter the side length of the N-gon A= ";
 cin >> A;
-cout << "Enter the number of sides of the N-gon (at least 3) n=: ";
+cout << "Enter the number of sides of the N-gon (at least 3) n= ";
 cin >> n;
 S=Square(A,n);
 }
