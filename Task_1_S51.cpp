@@ -6,7 +6,7 @@ int i, k;
 k=S.size();
 for (i = k-1; i >=0; i--)
     {
-        cout << S[i] << "   ";
+        cout << S[i];
     }
     return 0;
 }
