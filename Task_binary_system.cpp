@@ -1,7 +1,7 @@
 #include <iostream>
 using namespace std;
 int main(){
-int num, *a, k, j, i;
+int num, a[32], k, j, i;
 j=0;
 cin >> num;
 while (num >0){
@@ -12,7 +12,7 @@ while (num >0){
 k=j;
 for (i = k-1; i >=0; i--)
     {
-        cout << a[i] << "   ";
+        cout << a[i];
     }
     return 0;
 }
